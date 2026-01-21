@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+  background-image: url(../img/ps2.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: "Creepster", system-ui;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+.botao {
+  margin-left: 50%;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.botao:hover {
+  border: 3px solid black;
+}
+
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+}
